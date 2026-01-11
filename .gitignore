@@ -1,0 +1,121 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+coverage.xml
+*.egg-info/
+dist/
+build/
+*.egg
+*.eggs/
+*.manifest
+*.spec
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Testing and coverage
+htmlcov/
+.coverage.*
+coverage.*
+.tox/
+.nox/
+.pytest_cache/
+.cache/
+.mypy_cache/
+.ruff_cache/
+.dmypy.json
+dmypy.json
+
+# Dependency management
+Pipfile.lock
+poetry.lock
+requirements.txt.lock
+
+# Logs and databases
+*.log
+*.logs
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Project-specific
+# Ollama models (usually stored elsewhere, but just in case)
+*.gguf
+ollama_files/
+
+# Temporary / dev files
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+tmp/
+temp/
+
+# Secrets & environment
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.crt
+*.cer
+
+# LangChain / LLM caches
+langchain_cache/
+chroma/
+weaviate/
+faiss_index/
+*.faiss
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Docker
+docker-compose.override.yml
+
+# Deployment / infra
+.terraform/
+*.tfstate
+*.tfstate.*
+.kube/
+kubectl*
+
+# macOS specific
+.AppleDouble
+.LSOverride
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Keep these (examples you might want to commit)
+!.env.example
+!requirements.txt
+!requirements-dev.txt
