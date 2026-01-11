@@ -23,15 +23,6 @@ Exposed via **FastAPI**, designed with separation of concerns, dependency inject
 - **Resilience Engineering**  
   Integrated manual exponential backoff + connection pooling via `httpx` to handle high-latency custom MCP server environments.
 
-## Architecture Overview
-
-src/
-├── core/ # constants, prompts, settings
-├── mcp/ # custom MCP client (critical piece)
-├── agents/ # BaseAgent + Researcher, Developer, Tester
-├── workflow/ # LangGraph-based supervisor + routing
-├── api/ # FastAPI routes & dependencies
-
 ## Main Components
 
 - **MCP Server** — separate FastAPI app providing tools (web search, code execution, ...)
