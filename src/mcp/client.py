@@ -45,7 +45,7 @@ class Command(BaseModel):
 
 class MCPClient:
     """
-    Client for interacting with MCP (Model Control Platform) API.
+    Client for interacting with MCP (Model Context Protocol) API.
 
     Features:
     - Lazy loading of commands with caching
