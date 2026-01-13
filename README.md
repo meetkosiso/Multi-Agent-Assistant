@@ -1,6 +1,6 @@
 # Multi-Agent Research & Development Assistant
 
-A modular, production-ready multi-agent system powered by local open-source LLMs (via Ollama) and a lightweight custom MCP (Model Control Platform) server.
+A modular, production-ready multi-agent system powered by local open-source LLMs (via Ollama) and a lightweight custom MCP (Model Context Protocol) server.
 
 Exposed via **FastAPI**, designed with separation of concerns, dependency injection, and SOLID principles.
 
